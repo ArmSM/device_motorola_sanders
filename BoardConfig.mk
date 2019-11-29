@@ -79,7 +79,6 @@ TARGET_KERNEL_CONFIG := sanders_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 TARGET_KERNEL_CLANG_COMPILE := true
 KERNEL_TOOLCHAIN_PATH := $(TOP)/prebuilts/clang/host/linux-x86/clang-r353983d/bin/clang
-TARGET_KERNEL_CLANG_VERSION := 9.0.4
 
 # Audio
 BOARD_SUPPORTS_SOUND_TRIGGER_HAL := true
