@@ -87,7 +87,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := sanders_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
-TARGET_KERNEL_CLANG_COMPILE := true
+#TARGET_KERNEL_CLANG_COMPILE := true
 #KERNEL_TOOLCHAIN_PATH := $(TOP)/prebuilts/clang/host/linux-x86/clang-r353983d/bin/clang
 
 #Vndk
